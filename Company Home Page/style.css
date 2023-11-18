@@ -14,7 +14,11 @@ body{
 h3,h4,h5{
 font-weight: bold;
 padding: 10px;
-font-size: 1.4rem;
+font-size: 1.6rem;
+}
+h2{
+    padding: 10px;
+    font-size: 2.3rem;
 }
 /* Header section */
 h1{
@@ -50,7 +54,77 @@ a{
     background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
     padding-top: 35px;
 }
-.mission h2{
+/* Portfolio section */
+.portfolio{
+    padding-top: 40px;
+}
+h2{
     padding: 10px;
     font-size: 2.3rem;
+    font-weight: bold;
+}
+.companies{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.company img{
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+}
+.company span{
+    text-align: center;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: bold;
+    min-width: 240px;
+}
+/* Team section */
+.team-container{
+    padding-top: 20px;
+}
+.team-container img{
+    height: auto;
+    width: 250px;
+}
+.team{
+    justify-content: center;
+    display: flex;
+    height:550px;
+    padding: 10px;
+    flex-wrap: wrap;
+    background-image: url("https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg");
+}
+.teammate{
+    padding: 40px;
+    justify-content: center;
+    color: white;
+    flex-basis: 280px;
+}
+.teammate p{
+    font-size: 1.4rem;
+    display: block;
+}
+.contact{
+    padding-top: 10px;
+    display: block;
+}
+.contact h4{
+    padding-top: 15px;
+}
+/* Footer  */
+footer{
+    padding-top: 40px;
+}
+footer h4{
+    font-size: 22px;
 }
