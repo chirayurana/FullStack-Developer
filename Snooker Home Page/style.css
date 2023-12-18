@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+/* Navigation section */
+header{
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: teal;
+}
+header h2{
+    padding-top: 5px;
+    display: block;
+    color: coral;
+}
+nav{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+nav a{
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    padding: 30px;
+    text-decoration: none;
+    color: coral
+}
+/* Main container */
+.main-banner img{
+    height: auto;
+    width: 100%;
+}
+.main-banner{
+    height: 1100px;
+    width: 100%;
+}
+.text-banner{
+    text-align: center;
+}
